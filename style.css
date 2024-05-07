@@ -292,7 +292,7 @@ section .video2 {
 
 
 
-.faqs{
+.faqs {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -302,14 +302,14 @@ section .video2 {
     color: white;
 }
 
-.faqs h1{
+.faqs h1 {
     font-size: 42px;
     padding-bottom: 20px;
     font-weight: bolder;
 }
 
 
-.faqs p{
+.faqs p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -320,15 +320,15 @@ section .video2 {
     padding: 24px;
     font-size: 25px;
     cursor: pointer;
-    
+
 }
 
 
-.faqs p:hover{
+.faqs p:hover {
     background-color: #414141;
 }
 
-.second-seac{
+.second-seac {
     margin-top: 50px;
     font-size: 20px;
     display: flex;
@@ -342,7 +342,7 @@ section .video2 {
     height: 60px;
     border: none;
     border-radius: 8px;
-    background-color: rgba(28,36,50,0.66);
+    background-color: rgba(28, 36, 50, 0.66);
     /* padding-left: 15px; */
 }
 
@@ -353,7 +353,7 @@ section .video2 {
 
 
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -361,7 +361,7 @@ section .video2 {
     margin-top: 100px;
 }
 
-footer{
+footer {
     color: #B3B3B3;
     /* display: flex;
     flex-direction: column;
@@ -371,13 +371,13 @@ footer{
 }
 
 
-.footer a{
+.footer a {
     /* text-decoration: none; */
     color: #B3B3B3;
 }
 
 
-.row-1{
+.row-1 {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -386,7 +386,7 @@ footer{
     /* align-items: center; */
 }
 
-.row-2{
+.row-2 {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -396,12 +396,12 @@ footer{
 }
 
 
-.row-1 p{
+.row-1 p {
     color: white;
     /* margin-top: 25px; */
 }
 
-.row-3{
+.row-3 {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -411,7 +411,7 @@ footer{
 }
 
 
-.row-4{
+.row-4 {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -420,30 +420,28 @@ footer{
     /* align-items: center; */
 }
 
-.footer-2{
+.footer-2 {
     display: flex;
     flex-direction: column;
     justify-content: left;
     max-width: 1015px;
-    /* background-color: white; */
     margin: auto;
     margin-top: 25px;
     color: #B3B3B3;
     gap: 20px;
-   
+
 }
 
 
-.ques{
+.ques {
     color: white;
 }
 
 
-div.empty{
+div.empty {
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
 
+}
