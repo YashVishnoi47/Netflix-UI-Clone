@@ -157,7 +157,7 @@ nav button {
 }
 
 
-.line{
+.line {
     height: 8px;
     background-color: #232323;
     /* position: relative;
@@ -165,14 +165,22 @@ nav button {
 }
 
 
-.line2{
+.line2 {
     height: 8px;
     background-color: #232323;
     position: relative;
     top: 6px;
 }
 
-.bar{
+
+.line3 {
+    height: 8px;
+    background-color: #232323;
+    position: relative;
+    top: 8px;
+}
+
+.bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -185,7 +193,7 @@ nav button {
 
 
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,7 +203,7 @@ nav button {
     margin: auto;
 }
 
-.sec-text1{
+.sec-text1 {
     color: white;
     text-align: left;
     max-width: 85vh;
@@ -203,19 +211,19 @@ nav button {
 
 
 
-.sec-text1 h1{
+.sec-text1 h1 {
     margin: 5px;
     font-size: 48px;
-}   
+}
 
 
 
-.sec-text1 p{
+.sec-text1 p {
     font-size: 24px;
 }
 
 
-section .video1{
+section .video1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,13 +234,13 @@ section .video1{
 
 }
 
-.img1{
+.img1 {
     position: relative;
     z-index: 1;
 }
 
 
-.img2{
+.img2 {
     position: relative;
     z-index: 1;
 }
@@ -242,14 +250,14 @@ section .video1{
 /* section2 started */
 
 
-.img-box-play{
+.img-box-play {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.img-box-play img{
+.img-box-play img {
     height: 80px;
     width: 58px;
     position: relative;
@@ -259,15 +267,27 @@ section .video1{
 
 
 
-section .video2{
+section .video2 {
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 700px;
     top: 20px;
-    
-    
+
+
     /* z-index: 0; */
 
+}
+
+
+
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
 }
