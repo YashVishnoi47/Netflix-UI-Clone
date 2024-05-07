@@ -180,6 +180,15 @@ nav button {
     top: 8px;
 }
 
+.line5 {
+    height: 8px;
+    background-color: #232323;
+    position: relative;
+    top: 50 px;
+}
+
+
+
 .bar {
     display: flex;
     flex-direction: row;
@@ -284,10 +293,157 @@ section .video2 {
 
 
 .faqs{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 10px;
     color: white;
 }
+
+.faqs h1{
+    font-size: 42px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+
+.faqs p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2D2D2D;
+    width: 1000px;
+    height: 40px;
+    padding: 24px;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+
+
+.faqs p:hover{
+    background-color: #414141;
+}
+
+.second-seac{
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email-2 {
+    font-weight: bold;
+    width: 380px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(28,36,50,0.66);
+    /* padding-left: 15px; */
+}
+
+
+
+/* Footer starts */
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+footer{
+    color: #B3B3B3;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+.footer a{
+    /* text-decoration: none; */
+    color: #B3B3B3;
+}
+
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+    /* align-items: center; */
+}
+
+.row-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+    /* align-items: center; */
+}
+
+
+.row-1 p{
+    color: white;
+    /* margin-top: 25px; */
+}
+
+.row-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+    /* align-items: center; */
+}
+
+
+.row-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    font-size: 14px;
+    /* align-items: center; */
+}
+
+.footer-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    max-width: 1015px;
+    /* background-color: white; */
+    margin: auto;
+    margin-top: 25px;
+    color: #B3B3B3;
+    gap: 20px;
+   
+}
+
+
+.ques{
+    color: white;
+}
+
+
+div.empty{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
